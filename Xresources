@@ -1,0 +1,65 @@
+URxvt*termName: rxvt-unicode-256color
+URxvt.saveLines: 10000
+
+Xft.dpi: 96
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
+
+URxvt*inheritPixmap: true
+URxvt*transparent: true
+URxvt*shading: 25
+URxvt.scrollBar: false
+
+!URxvt.font: xft:Hack:pixelsize=14
+!URxvt.boldFont: xft:Hack:pixelsize=14
+!URxvt.font: -xos4-terminus-medium-r-normal-*-16-*-*-*-*-*-*-*
+!URxvt.boldFont: -xos4-terminus-bold-r-normal-*-16-*-*-*-*-*-*-*
+!URxvt.italicFont: -xos4-terminus-medium-r-normal-*-16-*-*-*-*-*-*-*
+!URxvt.bolditalicFont: -xos4-terminus-bold-r-normal-*-16-*-*-*-*-*-*-*
+URxvt.font: terminus-16
+URxvt.boldFont: terminus-bold-16
+URxvt.italicFont: terminus-16
+URxvt.boldItalicFont: terminus-bold-16
+
+URxvt.urlLauncher: /user/bin/firefox
+
+! special
+*.foreground:   #ffffff
+*.background:   #121519
+*.cursorColor:  #f54784
+
+! black
+*.color0:       #000000
+*.color8:       #4d4d4d
+
+! red
+*.color1:       #dc322f
+*.color9:       #a04544
+
+! green
+*.color2:       #859900
+*.color10:      #369c26
+
+! yellow
+*.color3:       #b58900
+*.color11:      #76751f
+
+! blue
+*.color4:       #268bd2
+*.color12:      #323f8a
+
+! magenta
+*.color5:       #d33682
+*.color13:      #702f70
+
+! cyan
+*.color6:       #2aa198
+*.color14:      #1f6060
+
+! white
+*.color7:       #eee8d5
+*.color15:      #ffffff
