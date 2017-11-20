@@ -9,9 +9,9 @@ Xft.hintstyle: hintfull
 Xft.lcdfilter: lcddefault
 Xft.rgba: rgb
 
-URxvt*inheritPixmap: true
-URxvt*transparent: true
-URxvt*shading: 25
+!URxvt*inheritPixmap: true
+!URxvt*transparent: true
+!URxvt*shading: 25
 URxvt.scrollBar: false
 
 !URxvt.font: xft:Hack:pixelsize=14
@@ -20,16 +20,17 @@ URxvt.scrollBar: false
 !URxvt.boldFont: -xos4-terminus-bold-r-normal-*-16-*-*-*-*-*-*-*
 !URxvt.italicFont: -xos4-terminus-medium-r-normal-*-16-*-*-*-*-*-*-*
 !URxvt.bolditalicFont: -xos4-terminus-bold-r-normal-*-16-*-*-*-*-*-*-*
-URxvt.font: terminus-16
-URxvt.boldFont: terminus-bold-16
-URxvt.italicFont: terminus-16
-URxvt.boldItalicFont: terminus-bold-16
+URxvt.font: terminus-18
+URxvt.boldFont: terminus-bold-18
+URxvt.italicFont: terminus-18
+URxvt.boldItalicFont: terminus-bold-18
 
 URxvt.urlLauncher: /user/bin/firefox
 
 ! special
 *.foreground:   #ffffff
-*.background:   #121519
+!*.background:   #121519
+*.background: #282840
 *.cursorColor:  #f54784
 
 ! black
